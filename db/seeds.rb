@@ -13,6 +13,6 @@ require 'faker'
     first_name: Faker::Name.unique.first_name,
     last_name: Faker::Name.unique.last_name,
     gender: Faker::Gender.type,
-    birthday: Faker::Date.birthday(min_age: 16, max_age: 100)
+    birthday: Faker::Date.birthday(min_age: 0, max_age: 120)
   )
 end
